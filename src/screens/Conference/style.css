@@ -1,0 +1,76 @@
+.outerContainer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  background-color: #1A1A1D;
+}
+
+.boardContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* background: rgb(237, 245, 130); */
+  border-radius: 8px;
+  height: 90%;
+  width: 60%;
+}
+
+.whiteBoardContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  /* background: rgb(145, 182, 250); */
+  border-radius: 8px;
+  height: 60%;
+  width: 100%;
+}
+
+.videoContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  /* background: rgb(224, 101, 101); */
+  border-radius: 8px;
+  height: 40%;
+  width: 100%;
+}
+
+.localVideoContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background: rgb(46, 209, 109);
+  border-radius: 8px;
+  height: 95%;
+  width: 45%;
+}
+
+.remoteVideoContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background: rgb(46, 209, 109);
+  border-radius: 8px;
+  height: 95%;
+  width: 45%;
+}
+
+.userListContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #FFFFFF;
+  border-radius: 8px;
+  height: 90%;
+  width: 30%;
+}
+
+.canvasContainer{
+  height: 100%;
+  width: 100%;
+}
